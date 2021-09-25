@@ -1,0 +1,136 @@
+
+        /* this rule is to set the navigation bar*/
+        ul
+        {
+            list-style:none;
+            margin:0;
+            padding:0;
+            overflow: hidden;
+            background-color: aliceblue;
+        }
+
+        /*This rule defines the elements to align to left*/
+        li
+        {
+            float:left;
+            border-right: 1px solid #bbb;
+        }
+
+        /*This rule is to set the border in the mavigation bar*/
+        li:last-child
+        {
+            border-right:none;
+        }
+
+        /*to display hover color as blue and text color appear as white*/
+        li a:hover
+        {
+            color: white;
+            background-color: #3a60a7;
+        }
+
+        /*Sets text in navigation bar in blocks */
+        li a
+        {
+               display:block;
+               text-align: center;
+               padding: 14px 14px;
+               text-decoration: none;
+        }
+
+        /*Sets the color of the link*/
+        a{
+            text-decoration: none;
+            color: #008CBA;
+        }
+
+        /*Sets the style for the search bar */
+        input[type=text]{
+            width:200px;
+            box-sizing: border-box;
+            border: 1px solid #008CBA;
+            border-radius: 4px;
+            font-size: 16px;
+            background-color: white;
+            background-image: url('download2.png');
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            padding:12px 20px 12px 40px;
+            transition: width 0.4s ease-in-out;
+        }
+
+        /*Expands search bar to 100% when there's input*/
+        input[type=text]:focus{
+            width:100%;
+        }
+
+        /*aligning the header 1 to center and setting the color to aquamarine */
+        h1
+        {
+            text-align:center;
+            text-transform: uppercase;
+            color: #008CBA;
+        }
+
+        h2
+        {
+            text-transform: uppercase;
+            color: aliceblue;
+        }
+
+        h3{
+            text-transform: uppercase;
+            color: #3a60a7;
+        }
+
+        /*setting the style for paragraph*/
+        p
+        {
+            text-indent: 50px;
+            letter-spacing: 1px;
+            text-align: justify;
+        }
+
+        footer{
+            list-style:none;
+            width: 99%;
+            margin:0;
+            padding:5px 5px;
+            float: left;
+
+            color: aliceblue;
+            background-color: #008CBA;
+            text-align: left;
+        }
+
+        /*define the rule for section*/
+        section::after{
+            content:"";
+            display:table;
+            clear:both;
+        }
+
+        /*Sets style rules for text in footer*/    
+        .contactInfo{
+            float: right;
+            size: 12px;
+            color:aliceblue;
+        }
+
+        /*This is the rule for the webpage's background picture */
+        body{
+            background-image: url('TechBackground.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        /*This sets the rules for the webpage's header*/
+        header{
+            text-align: center;
+        }
+        /*This is the rule for defining the profile picture */
+        div.logo{ /*positioning my logo on the webpage*/
+                display:inline;
+                vertical-align:left;
+        }

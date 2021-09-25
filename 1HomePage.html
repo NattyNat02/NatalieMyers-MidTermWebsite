@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <!-- this is my home page-->
+    <title>VS' Portfolio</title>
+    
+    <!--Sets up the style for the Navigation bar-->
+    <link href="style.css" rel="stylesheet">
+
+<style>
+    
+    article.longColumn{
+        float:left;
+        width: 25%;
+        height: 75%;
+        padding: 2px 2px;
+        margin: 4px 2px;
+        background-color: #00ba92;
+    }
+
+    article.longRow{
+        float:right;
+        width: 73%;
+        height: 25%;
+        padding: 2px 2px;
+        margin: 2px 2px;
+        background-color: rgb(122, 179, 230);
+    }
+
+</style>
+
+    <body>
+        <!--Navigation Bar-->
+        <ul>
+            <li><a class ="active" href="1HomePage.html">Home</a></li>
+            <li><a class ="active" href="2ExperiencePage.html">Experience</a></li>
+            <li><a class ="active" href="3InvolvementsPage.html">Involvements</a></li>
+            <li><a class ="active" href="4InterestsPage.html">Interests</a></li>
+            <li style="float:right"><a class ="active" href="5ContactMe.html">Contact Me</a></li>
+        </ul>
+
+        <!--Search Bar-->
+        <form>
+            <input style="float: right" type ="text" name="search" placeholder="Search....">
+        </form>
+
+        <!--This is my website header-->
+        <section>
+        <header>
+            <div class="logo">
+                <img src="C:\Users\acese\OneDrive\Documents\GitHub\NatalieMyers-MidTermWebsite\Website Pages\Natalie Myers Professional Headshot.jpg" style= "height:150px; border:2px solid #008CBA; float: left; border-radius:50%;" alt="Profile">
+                <h2 style="text-align: center; vertical-align: text-bottom; text-transform: uppercase; color: #008CBA; font-size: 78px;"> Natalie Myers Portfolio </h2>
+            </div>
+        </header>
+        </section>
+
+        <!--Page Title-->
+        <div>
+            <h1>About Me</h1>
+            <p style="text-align:center; color: aliceblue">Welcome to my portfolio website! This page will provide general information about me</p>
+        </div>
+
+        <div>
+        <article class="longColumn">
+            <h3 style="text-align:center">Introduction</h3>
+            <p style="padding:2px 2px">My name is Natalie Myers. I am an Undergraduate student who plays softball at the University of the Incarnate Word. I am majoring in Management Information Systems and minoring in Computer Information Systems. My overall GPA is currently 4.0, and I am involved in many organizations and extracirricular activities.</p>
+        </article>
+
+        <article class="longRow">
+            <h3>My Work Experience</h3>
+            <img class="row" src="C:\Users\acese\OneDrive\Documents\GitHub\NatalieMyers-MidTermWebsite\Website Pages\Typing.gif" alt= typingGIF usemap="#workmap" height="150px" width="200px" style="margin: 8px 8px">
+            <map name="workmap">
+                <area shape="rect" coords="34,44,270,250" alt="experiencePage" href="C:\Users\acese\OneDrive\Documents\GitHub\NatalieMyers-MidTermWebsite\Website Pages\2ExperiencePage.html">
+            </map>
+        </article>
+        </div>
+
+        <section>
+            <footer>
+                <p style="float: left; font-size: 18px"><b>Natalie Myers Portfolio Website</b></p>
+                <p class="contactInfo"><a href="https://www.linkedin.com/in/natalie-myers-5382531ab/" style="color:aliceblue; float: none;">LinkedIn Profile</a>     Email:nataliemyers2019@yahoo.com Phone:(281) 961-4920</p>
+            </footer>
+        </section>
+    </body>
+
+</html>
